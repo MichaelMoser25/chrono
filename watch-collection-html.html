@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Watch Collection | ChronoElegance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Updated to reference the improved CSS file -->
+    <link rel="stylesheet" href="watch-collection-css.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-clock"></i>
+                <h1>Chrono<span>Elegance</span></h1>
+            </div>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#" class="brand-link" data-brand="rolex">Rolex</a></li>
+                    <li><a href="#" class="brand-link" data-brand="ap">Audemars Piguet</a></li>
+                    <li><a href="#" class="brand-link" data-brand="tag">TAG Heuer</a></li>
+                    <li><a href="#" class="brand-link" data-brand="cartier">Cartier</a></li>
+                    <li><a href="#" class="brand-link" data-brand="patek">Patek Philippe</a></li>
+                    <li><a href="#" class="brand-link" data-brand="panerai">Panerai</a></li>
+                </ul>
+            </nav>
+            
+            <!-- <div class="nav-icons">
+                <div class="nav-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="nav-icon">
+                    <i class="far fa-user"></i>
+                </div>
+                <div class="nav-icon">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="nav-icon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div> -->
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Premium Watch <span>Collection</span></h1>
+                <p>Discover our exclusive selection of luxury timepieces crafted with precision and elegance.</p>
+                <a href="#collection" class="btn">View Collection</a>
+            </div>
+        </section>
+
+        <section id="collection" class="watch-collection">
+            <div class="section-title">
+                <h2>Our Luxury Timepieces</h2>
+                <p>Explore our carefully curated collection of premium watches</p>
+            </div>
+
+            <div class="brand-filters">
+                <button class="brand-filter active" data-brand="all">All Brands</button>
+                <button class="brand-filter" data-brand="rolex">Rolex</button>
+                <button class="brand-filter" data-brand="ap">Audemars Piguet</button>
+                <button class="brand-filter" data-brand="tag">TAG Heuer</button>
+                <button class="brand-filter" data-brand="cartier">Cartier</button>
+                <button class="brand-filter" data-brand="patek">Patek Philippe</button>
+                <button class="brand-filter" data-brand="panerai">Panerai</button>
+
+            </div>
+
+            <div class="collection-case">
+                <div class="case-header">
+                    <h3>Featured Collection</h3>
+                    <div class="case-controls">
+                        <button id="prev-page" class="case-control"><i class="fas fa-chevron-left"></i></button>
+                        <div class="case-pagination">
+                            <span class="current-page">1</span> / <span class="total-pages">3</span>
+                        </div>
+                        <button id="next-page" class="case-control"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                
+                <div class="case-display">
+                    <!-- Watches will be dynamically added here by JavaScript -->
+                </div>
+            </div>
+            
+            <div class="collection-info">
+                <div class="info-card">
+                    <i class="fas fa-certificate"></i>
+                    <h4>Authenticity Guaranteed</h4>
+                    <p>Every timepiece comes with a certificate of authenticity</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>5-Year Warranty</h4>
+                    <p>All our watches include comprehensive warranty coverage</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h4>Free Global Shipping</h4>
+                    <p>Complimentary shipping on all orders over $1,000</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-exchange-alt"></i>
+                    <h4>30-Day Returns</h4>
+                    <p>Not satisfied? Return your unworn purchase within 30 days</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column footer-about">
+                <div class="footer-logo">
+                    <i class="fas fa-clock"></i>
+                    <h2>Chrono<span>Elegance</span></h2>
+                </div>
+                <p>We are dedicated to providing exceptional timepieces that combine masterful craftsmanship with elegant design, creating watches that are not just accessories but heirlooms.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Collections</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> New Arrivals</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column footer-links">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Shipping Policy</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Returns & Exchanges</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Watch Care</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Size Guide</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <div class="contact-info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="contact-details">
+                        123 Luxury Avenue<br>
+                        New York, NY 10001
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="contact-details">
+                        +1 (555) 123-4567
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-envelope"></i>
+                    <div class="contact-details">
+                        info@chronoelegance.com
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2025 ChronoElegance. All Rights Reserved.</p>
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa payment-method"></i>
+                <i class="fab fa-cc-mastercard payment-method"></i>
+                <i class="fab fa-cc-amex payment-method"></i>
+                <i class="fab fa-cc-paypal payment-method"></i>
+                <i class="fab fa-cc-apple-pay payment-method"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Updated to reference the improved JS file -->
+    <script src="watch-collection-js.js"></script>
+</body>
+</html>
